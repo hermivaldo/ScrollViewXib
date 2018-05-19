@@ -12,6 +12,11 @@
 		AC32FD4420B055CE004D8C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32FD4220B055CE004D8C2F /* Main.storyboard */; };
 		AC32FD4620B055CE004D8C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC32FD4520B055CE004D8C2F /* Assets.xcassets */; };
 		AC32FD4920B055CE004D8C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32FD4720B055CE004D8C2F /* LaunchScreen.storyboard */; };
+		AC32FD5220B05932004D8C2F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32FD5020B05932004D8C2F /* SecondViewController.swift */; };
+		AC32FD5320B05932004D8C2F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC32FD5120B05932004D8C2F /* SecondViewController.xib */; };
+		AC32FD5620B05C9F004D8C2F /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32FD5420B05C9F004D8C2F /* Second.storyboard */; };
+		AC32FD5820B05D08004D8C2F /* TrirdStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32FD5720B05D08004D8C2F /* TrirdStoryboard.storyboard */; };
+		AC32FD5A20B06A40004D8C2F /* ScroolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32FD5920B06A40004D8C2F /* ScroolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		AC32FD4520B055CE004D8C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC32FD4820B055CE004D8C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC32FD4A20B055CE004D8C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC32FD5020B05932004D8C2F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC32FD5120B05932004D8C2F /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		AC32FD5520B05C9F004D8C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ScrollViewXib/Base.lproj/Second.storyboard; sourceTree = "<group>"; };
+		AC32FD5720B05D08004D8C2F /* TrirdStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TrirdStoryboard.storyboard; sourceTree = "<group>"; };
+		AC32FD5920B06A40004D8C2F /* ScroolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScroolViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		AC32FD3D20B055CE004D8C2F /* ScrollViewXib */ = {
 			isa = PBXGroup;
 			children = (
+				AC32FD5420B05C9F004D8C2F /* Second.storyboard */,
+				AC32FD5720B05D08004D8C2F /* TrirdStoryboard.storyboard */,
 				AC32FD3E20B055CE004D8C2F /* AppDelegate.swift */,
 				AC32FD4020B055CE004D8C2F /* ViewController.swift */,
+				AC32FD5020B05932004D8C2F /* SecondViewController.swift */,
+				AC32FD5120B05932004D8C2F /* SecondViewController.xib */,
 				AC32FD4220B055CE004D8C2F /* Main.storyboard */,
+				AC32FD5920B06A40004D8C2F /* ScroolViewController.swift */,
 				AC32FD4520B055CE004D8C2F /* Assets.xcassets */,
 				AC32FD4720B055CE004D8C2F /* LaunchScreen.storyboard */,
 				AC32FD4A20B055CE004D8C2F /* Info.plist */,
@@ -123,8 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC32FD5320B05932004D8C2F /* SecondViewController.xib in Resources */,
 				AC32FD4920B055CE004D8C2F /* LaunchScreen.storyboard in Resources */,
 				AC32FD4620B055CE004D8C2F /* Assets.xcassets in Resources */,
+				AC32FD5820B05D08004D8C2F /* TrirdStoryboard.storyboard in Resources */,
+				AC32FD5620B05C9F004D8C2F /* Second.storyboard in Resources */,
 				AC32FD4420B055CE004D8C2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC32FD5220B05932004D8C2F /* SecondViewController.swift in Sources */,
 				AC32FD4120B055CE004D8C2F /* ViewController.swift in Sources */,
+				AC32FD5A20B06A40004D8C2F /* ScroolViewController.swift in Sources */,
 				AC32FD3F20B055CE004D8C2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +178,14 @@
 				AC32FD4820B055CE004D8C2F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AC32FD5420B05C9F004D8C2F /* Second.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC32FD5520B05C9F004D8C2F /* Base */,
+			);
+			name = Second.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
